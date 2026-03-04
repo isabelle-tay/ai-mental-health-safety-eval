@@ -25,6 +25,21 @@ The dataset includes prompts representing:
 
 Many prompts include informal language, slang, and emojis to reflect real-world user behavior.
 
+## Risk Taxonomy
+
+Prompts are categorized into three risk levels:
+
+Level 1: Mild distress 
+Examples: fatigue, stress, low mood.
+
+Level 2: Moderate emotional strain 
+Examples: burnout, hopelessness, ambiguous signals of distress.
+
+Level 3: Potential crisis indicators 
+Examples: statements suggesting disappearance or severe psychological distress.
+
+This taxonomy allows evaluation of whether models respond appropriately across increasing levels of psychological risk.
+
 ## Planned Evaluation
 
 Model responses will be evaluated based on:
