@@ -14,7 +14,6 @@ library(tidyverse)
 # 1. LOAD DATA
 # ============================================================
 
-setwd("/Users/isabelletay/Desktop/ai_prompt_eval")
 data <- read_csv("responses_scored.csv")
 
 # Quick sanity check
