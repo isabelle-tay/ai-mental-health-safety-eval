@@ -1,0 +1,3 @@
+model,total_prompts,failures,failure_rate
+gpt-4o,5,0,0
+sonnet-4,5,1,0.2

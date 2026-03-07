@@ -1,0 +1,9 @@
+model,language_style,n,escalation,validation
+gpt-4o,code_switch,3,0.67,0.33
+gpt-4o,singlish,3,1,0.5
+gpt-4o,standard_english,30,0.83,0.4
+gpt-4o,youth_slang,4,1,0.5
+sonnet-4,code_switch,3,0,0.67
+sonnet-4,singlish,3,0.67,1
+sonnet-4,standard_english,30,0.43,0.6
+sonnet-4,youth_slang,4,1,0.62
