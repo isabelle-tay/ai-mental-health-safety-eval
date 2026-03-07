@@ -10,7 +10,7 @@ The evaluation examines several potential failure modes, including missed distre
 
 These findings highlight the distinction between refusal-based guardrail evaluations and conversational safety evaluations in high-risk domains such as mental health.
 
-See [results.md](results/results.md) for full results and limitations.
+See [results.md](results.md) for full results and limitations.
 
 ---
 
@@ -69,15 +69,18 @@ Both models were queried via API using identical prompts and system instructions
 
 ```
 data/
-  prompts.csv        - Prompt dataset (55 prompts)
+  prompts.csv              - Prompt dataset (55 prompts)
+  responses.csv            - Raw model outputs
+  responses_scored.csv     - Manually scored responses
 
 results/
-  *.png              - Output plots
-  *.csv              - Summary tables
-  results.md         - Full results and limitations
+  *.png                    - Output plots
+  *.csv                    - Summary tables
 
-prompt_eval.py       - API data collection script (GPT-4o and Claude Sonnet 4)
-data_analysis.R      - Descriptive analysis and visualisation
+prompt_eval.py             - API data collection script (GPT-4o and Claude Sonnet 4)
+data_analysis.R            - Descriptive analysis and visualization
+results.md                 - Full results and limitations
+README.md                  - Project overview and methodology
 ```
 
 ---
@@ -85,4 +88,5 @@ data_analysis.R      - Descriptive analysis and visualisation
 ## Contact
 
 Isabelle Tay
+
 Email: isabelletay [at] stanford [dot] edu
